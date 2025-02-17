@@ -1,0 +1,3 @@
+# Haskell Undefined Value Bug
+
+This repository demonstrates a common error in Haskell: attempting to use an undefined value in a calculation.  The `undefined` value represents a computation that hasn't been provided a value, leading to a runtime error when the program tries to use it.  The solution shows how to avoid this by providing a default value or handling the possibility of undefined values more gracefully.
